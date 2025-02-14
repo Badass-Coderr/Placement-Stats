@@ -1,0 +1,30 @@
+.app-content{
+  min-height: 700px;
+  display: flex;
+}
+
+.content{
+  width: 100%;
+  
+}
+
+
+body{
+  background-color: #62929E;
+}
+
+.sidebar {
+  
+  background-color: #333;
+  color: white;
+  padding: 1em;
+  position: fixed; /* Fixed sidebar */
+  height: 100%; /* Full height of the viewport */
+  overflow: auto; /* Enable scrolling within the sidebar if needed */
+
+}
+
+
+
+/* Footer Styles */
+
