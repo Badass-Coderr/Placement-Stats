@@ -74,7 +74,7 @@ app.get('/detail23', async (req, res) => {
       return res.status(404).json({ message: "No placement data found in Placement_23" });
     }
     res.json(data);
-  } catch (error) {
+  } catch (error) 
     console.error("❌ Error fetching data from Placement_23:", error);
     res.status(500).json({ error: 'Internal Server Error' });
   }

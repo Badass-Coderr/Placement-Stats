@@ -1,7 +1,7 @@
 const express = require('express');
 const Detail = require('./table.js'); // Ensure this path is correct
 const cors = require('cors');
-const axios = require('axios'); // Import axios for making HTTP requests
+const axios = require('axios');
 
 const app = express();
 app.use(cors()); // Enable CORS
